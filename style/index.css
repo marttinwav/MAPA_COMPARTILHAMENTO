@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+/* ===== PAINEL ===== */
+.painel-controle {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px;
+  width: 280px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.painel-titulo {
+  color: #ff7a00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eef0f2;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.item.ativo {
+  background: #d9f2e3;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+}
+
+.bolinha {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.info {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #555;
+}
