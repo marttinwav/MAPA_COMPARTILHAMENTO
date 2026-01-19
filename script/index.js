@@ -253,7 +253,7 @@ painel.onAdd = function () {
     <div class="item ativo" onclick="toggleCamada(camadaPreta, this)">
       <div class="linha">
         <div class="bolinha" style="background:black"></div>
-        Postes não utilizados
+        PS necessário a elaboração do projeto identificados como revelia
       </div>
       <strong>${camadaPreta.getLayers().length}</strong>
     </div>
