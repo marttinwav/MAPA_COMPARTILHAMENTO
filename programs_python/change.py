@@ -1,6 +1,6 @@
 import pandas as pd
 
-arquivo = "Pontos_considerados.csv"
+arquivo = "geral.csv"
 
 df = pd.read_csv(arquivo)
 
